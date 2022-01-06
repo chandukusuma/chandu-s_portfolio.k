@@ -140,7 +140,7 @@ var numberElementCollector = new NumberElementCollector()
 var draw = () => {
   ctx.beginPath()
   ctx.fillStyle = "rgba(0, 0, 0, 0.1)"
-  for (let numberElement of numberElementCollector.get()) {
+  for (let numberElement of numberElementCollector.get()){
     ctx.font = numberElement.size / 1.5 + 'px arial black'
     ctx.textBaseline = 'bottom'
     ctx.textAlign = 'left'
