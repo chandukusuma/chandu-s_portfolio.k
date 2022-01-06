@@ -1702,3 +1702,9 @@
       border-radius: 20px;
     color: #FFF;
   }
+  .span{
+    display: flex;
+  }
+  .git_img{
+    margin-top: -1%;
+  }
