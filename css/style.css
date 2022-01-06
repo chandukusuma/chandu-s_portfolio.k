@@ -1708,3 +1708,9 @@
   .git_img{
     margin-top: -1%;
   }
+  .resume{
+    margin-top: 5%;
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+    margin : 1%;
+  }
